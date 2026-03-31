@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100%;
+        max-width: 400px;
+        height: 100px;
+        background-color: lightblue;
+        padding: 20px;
+        border: 2px solid black;
+        margin: 10px auto; /* This will center the div horizontally */
+      }
+      .box2 {
+        width: 200px;
+        min-height: 100px;
+        max-height: 300px;
+        background-color: lightcoral;
+        padding: 20px;
+        overflow: auto;
+        border: 2px solid black;
+        margin: 10px auto; /* This will center the div horizontally */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">This content can grow but not beyond maximum width</div>
+    <div class="box2">
+      This content can grow but not beyond maximum height
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nostrum
+        corporis impedit obcaecati tempora voluptatibus eaque delectus, harum
+        praesentium ex repudiandae dolores vero vitae aperiam cupiditate.
+        Consequuntur sint ipsam eveniet.
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor possimus
+        architecto reprehenderit corrupti voluptate quasi temporibus aperiam in
+        voluptas corporis blanditiis obcaecati, asperiores unde molestiae
+        similique voluptates repellendus odio quas?
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta maiores
+        harum nemo quisquam minus? Voluptas delectus neque corporis nostrum,
+        explicabo similique beatae consequatur, sit maiores blanditiis voluptate
+        deleniti quo numquam.
+      </p>
+    </div>
+  </body>
+</html>
